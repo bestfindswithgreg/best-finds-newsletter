@@ -1,0 +1,4 @@
+bindings.deploy.json
+admin-token.txt
+wrangler.toml
+.dev.vars
