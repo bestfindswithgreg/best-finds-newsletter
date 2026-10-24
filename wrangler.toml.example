@@ -1,0 +1,13 @@
+# Example wrangler config — copy to wrangler.toml and fill in your KV id.
+# The admin token is a secret: set it with `wrangler secret put ADMIN_TOKEN`,
+# never in this file.
+name = "best-finds-newsletter"
+main = "worker.js"
+compatibility_date = "2025-10-01"
+
+[[kv_namespaces]]
+binding = "NEWS_KV"
+id = "<your-kv-namespace-id>"
+
+[vars]
+SENDER = "outbox"
