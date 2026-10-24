@@ -1,0 +1,1 @@
+[{"binding":"NEWS_KV","namespace_id":"<your-kv-namespace-id>","type":"kv_namespace"},{"binding":"ADMIN_TOKEN","text":"<set via `wrangler secret put ADMIN_TOKEN` or the API secrets endpoint — never commit a real value>","type":"secret_text"}]
